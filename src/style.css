@@ -1,0 +1,145 @@
+body{
+    width: 550px;
+    height: 868px;
+    background-color: #23252C;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+#root{
+    background-color: #1A1B21;
+    display: flex;
+    justify-content: center;
+    width: 317px;
+    height: 780px;
+    margin-top: 44px;
+    margin-left: 116px;
+    border-radius: 10px;
+}
+
+.head-shot{
+    width: 317px;
+    height: 290px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.info h4{
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    line-height: 15.49px;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.info h5{
+    margin-top: 10px;
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+
+}
+
+.btn-container{
+    display: flex;           /* Enables flexbox on the container */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;     /* Centers the buttons vertically */
+    gap: 18px; 
+}
+
+.btn-container a{
+    text-decoration: none;
+}
+
+.email-btn{
+    width: 115px;
+    height: 34px;
+    padding: 9px, 13px, 9px, 11px;
+    border-radius: 7px;
+    display: flex;           /* Enables flexbox on the container */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;     /* Centers the buttons vertically */
+    gap: 5px; 
+    background-color: #FFFFFF;
+    color: #374151;
+}
+
+.linkedIn-btn{
+    width: 115px;
+    height: 34px;
+    padding: 9px, 13px, 9px, 11px;
+    border-radius: 7px;
+    display: flex;           /* Enables flexbox on the container */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;     /* Centers the buttons vertically */
+    gap: 5px; 
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.email-btn:hover{
+    background-color: #e1e0e0;
+}
+.email-btn:active{
+    background-color: #adadad;
+}
+
+.linkedIn-btn:hover{
+    background-color: #4988cf;
+}
+
+.linkedIn-btn:active{
+    background-color: #4074b0;
+}
+
+.about-container{
+    width: 247px;
+    margin-top: 30px;
+    margin-left: 12%;
+}
+
+.about-container h2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-bottom: 0px;
+
+}
+
+.about-container p{
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #DCDCDC;
+    line-height: 15.36px;
+    
+
+}
+
+#interest-container{
+    margin-top: 20px;
+}
+
+.footer-container{
+    background-color: #161619;
+    width: 317px;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;           /* Enables flexbox on the container */
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center;     /* Centers the buttons vertically */
+    gap: 5px; 
+}
