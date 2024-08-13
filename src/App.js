@@ -7,11 +7,13 @@ import Footer from "./components/Footer"
 
 export default function App(){
     return(
-        <div className="main">
+        <main className="main">
+        <div>
             <Info />
             <About />
             <Interests />
             <Footer />
         </div>
+        </main>
     )
 }

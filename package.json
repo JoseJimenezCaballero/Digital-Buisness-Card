@@ -1,5 +1,5 @@
 {
-  "homepage" : "http://JoseJimenezCaballero.github.io/Digital-Buisness-Card",
+  "homepage": "http://JoseJimenezCaballero.github.io/Digital-Buisness-Card",
   "name": "digitalcard",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
