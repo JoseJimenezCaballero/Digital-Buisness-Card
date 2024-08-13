@@ -143,3 +143,9 @@ a{
     align-items: center;     /* Centers the buttons vertically */
     gap: 5px; 
 }
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
